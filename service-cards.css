@@ -1,0 +1,40 @@
+.service-card{
+    /* background-color: rgb(148, 237, 236) !important; */
+    /* background-color: black !important; */
+    /* background-color: rgb(31, 31, 53) !important; */
+    background-color:var(--sky-blue) !important;
+
+
+    /* padding: 0.5rem 0.7rem; */
+    position: relative;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.7) !important;
+}
+
+.card-title-heading{
+    color: var(--white-color);
+    margin-bottom: 17px !important;
+}
+
+.service-card h6{
+    color: var(--white-color);
+    font-size: 16px;
+    transition: 0.3s ease;
+    width: fit-content;
+    padding: 4px 0;
+}
+
+.service-card h6:hover{
+    background: -webkit-gradient(linear, left top, right top, from(#fa6108), color-stop(50%, #f69a64), to(#fa6108));
+    background: linear-gradient(90deg, #fa6108 0%, #f69a64 50%, #fa6108);
+    background-position: 120%;
+    color: #fff;
+}
+
+.star-wrapper{
+    position: absolute;
+    color: gold;
+    right: 0;
+    display: flex;
+    flex-direction: column !important;
+    padding: 15px!important ;
+}
