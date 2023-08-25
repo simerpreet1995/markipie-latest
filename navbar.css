@@ -52,14 +52,19 @@ html{
 }
 
 .offcanvas{
-    width: 280px !important;
+    width: 220px !important;
+    
 }
+
+.offcanvas-title img {
+    width: 120px;
+}
+
 
 @media screen and (min-width:1018px) {
     .mobile-nav{
       display: none !important;
     }
-
-
    
 }
+
